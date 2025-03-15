@@ -29,6 +29,11 @@ export class ItemService {
   delteItem(item: Item) {
     this.items.splice(this.items.indexOf(item), 1);
     this.saveItems();
+<<<<<<< HEAD
   //master
+=======
+    // hwp
+    this.saveItems();
+>>>>>>> f2ddb2e99720b1af851b749b3212a27ce85bfd4e
   }
 }
