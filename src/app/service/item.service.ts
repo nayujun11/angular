@@ -30,5 +30,6 @@ export class ItemService {
     this.items.splice(this.items.indexOf(item), 1);
     this.saveItems();
     // hwp
+    this.saveItems();
   }
 }
